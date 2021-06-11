@@ -1,0 +1,94 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#root2 {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  margin: 0 auto;
+  padding: 0;
+  border: black auto 1px;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#root3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 200px;
+  width: 300px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#root4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  width: 300px;;
+  background-color: gray;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#form {
+  height: 60px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+#login {
+  height: 20px;
+  width: 160px;
+  font-size: 18px;
+}
+#player {
+  width: 300px;
+  display:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+#reset2 {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding: 4px;
+}
+#zagraj {
+  width: 180px;
+  height: 60px;
+  font-size: 22px;
+
+}
+#zaloguj, #reset {
+  font-size: 18px;
+}
